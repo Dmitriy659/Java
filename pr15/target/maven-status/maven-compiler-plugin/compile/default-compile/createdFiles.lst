@@ -1,5 +1,0 @@
-org\dmitriy\Application.class
-org\dmitriy\entity\Departure.class
-org\dmitriy\config\Conf.class
-org\dmitriy\repository\DepartureRepository.class
-org\dmitriy\controller\DepartureController.class
