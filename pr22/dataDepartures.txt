@@ -1,0 +1,1 @@
+Departure{id=603, type='type1', creationDate='19-04-2024'}

@@ -1,0 +1,3 @@
+PostOffice{id=1, name='office', cityName='Moscow' [Departure{id=602, type='type2', creationDate='19-04-2024'}, Departure{id=603, type='type1', creationDate='19-04-2024'}]}
+PostOffice{id=2, name='office3', cityName='Kazan' []}
+PostOffice{id=52, name='office4', cityName='Tula' []}
