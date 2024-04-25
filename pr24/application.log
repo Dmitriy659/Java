@@ -1,0 +1,150 @@
+676  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                – Could not detect default configuration classes for test class [org.dmitriy.prack15.Prack15ApplicationTests]: Prack15ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+922  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                – Found @SpringBootConfiguration org.dmitriy.prack15.Prack15Application for test class org.dmitriy.prack15.Prack15ApplicationTests
+1747 [main] INFO  o.d.prack15.Prack15ApplicationTests
+                – Starting Prack15ApplicationTests using Java 21.0.2 with PID 3308 (started by user in C:\Users\user\IdeaProjects\pr23)
+1749 [main] INFO  o.d.prack15.Prack15ApplicationTests
+                – No active profile set, falling back to 1 default profile: "default"
+3133 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+3243 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 92 ms. Found 3 JPA repository interfaces.
+4596 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4742 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+4814 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+5436 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+5500 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+6025 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d6c4079
+6028 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+6154 [main] WARN  org.hibernate.orm.deprecation
+                – HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+8177 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+8367 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+9785 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10717 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@383a5260, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4986b0ea, org.springframework.security.web.context.SecurityContextHolderFilter@55159007, org.springframework.security.web.header.HeaderWriterFilter@5481f204, org.springframework.web.filter.CorsFilter@ce5a2ea, org.springframework.security.web.csrf.CsrfFilter@5e0b7f58, org.springframework.security.web.authentication.logout.LogoutFilter@3b8c15de, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@76055d02, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5d2bfc9f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@37a0c3c6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a49753, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e68ccc9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5de32e00, org.springframework.security.web.access.ExceptionTranslationFilter@304cad3a, org.springframework.security.web.access.intercept.AuthorizationFilter@24ea71d]
+11662 [main] INFO  o.d.prack15.Prack15ApplicationTests
+                – Started Prack15ApplicationTests in 10.379 seconds (process running for 13.273)
+12003 [scheduling-1] INFO  o.d.p.a.ServiceExecutionTimeAspect
+                – void org.dmitriy.prack15.services.DataProcessingService.processData() executed in 321ms
+13179 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+13182 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+13192 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+1062 [main] INFO  o.d.prack15.Prack15Application
+                – Starting Prack15Application using Java 21.0.2 with PID 15276 (C:\Users\user\IdeaProjects\pr23\target\classes started by user in C:\Users\user\IdeaProjects\pr23)
+1065 [main] INFO  o.d.prack15.Prack15Application
+                – No active profile set, falling back to 1 default profile: "default"
+2082 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2176 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 82 ms. Found 3 JPA repository interfaces.
+3334 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port 8080 (http)
+3352 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3356 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3356 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.19]
+3464 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3465 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2339 ms
+3806 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3894 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+3954 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+4376 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+4429 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+4716 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1805ec96
+4719 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+4771 [main] WARN  org.hibernate.orm.deprecation
+                – HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+6344 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+6452 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+7443 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+8027 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@79d3fb99, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f4b2d13, org.springframework.security.web.context.SecurityContextHolderFilter@4b718c45, org.springframework.security.web.header.HeaderWriterFilter@66011fbc, org.springframework.web.filter.CorsFilter@7154a248, org.springframework.security.web.csrf.CsrfFilter@14a5d7ee, org.springframework.security.web.authentication.logout.LogoutFilter@137db13f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@9fc125b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6700374f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@435a4d2d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c1b10f2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f5314bc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@253379ec, org.springframework.security.web.access.ExceptionTranslationFilter@3985175e, org.springframework.security.web.access.intercept.AuthorizationFilter@20e25bf7]
+8680 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+8708 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port 8080 (http) with context path ''
+8723 [main] INFO  o.d.prack15.Prack15Application
+                – Started Prack15Application in 8.224 seconds (process running for 9.586)
+8988 [scheduling-1] INFO  o.d.p.a.ServiceExecutionTimeAspect
+                – void org.dmitriy.prack15.services.DataProcessingService.processData() executed in 253ms
+13647 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+13651 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+13662 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+571  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils
+                – Could not detect default configuration classes for test class [org.dmitriy.prack15.Prack15ApplicationTests]: Prack15ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+779  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper
+                – Found @SpringBootConfiguration org.dmitriy.prack15.Prack15Application for test class org.dmitriy.prack15.Prack15ApplicationTests
+1443 [main] INFO  o.d.prack15.Prack15ApplicationTests
+                – Starting Prack15ApplicationTests using Java 21.0.2 with PID 8428 (started by user in C:\Users\user\IdeaProjects\pr23)
+1444 [main] INFO  o.d.prack15.Prack15ApplicationTests
+                – No active profile set, falling back to 1 default profile: "default"
+2683 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2785 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+4060 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4174 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.4.4.Final
+4238 [main] INFO  o.h.c.i.RegionFactoryInitiator
+                – HHH000026: Second-level cache disabled
+4794 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo
+                – No LoadTimeWeaver setup: ignoring JPA class transformer
+4852 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+5266 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@145a821d
+5270 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+5333 [main] WARN  org.hibernate.orm.deprecation
+                – HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+7163 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+7286 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+8626 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9442 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a49753, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e68ccc9, org.springframework.security.web.context.SecurityContextHolderFilter@1a67bcaf, org.springframework.security.web.header.HeaderWriterFilter@5aa461, org.springframework.web.filter.CorsFilter@1784fcab, org.springframework.security.web.csrf.CsrfFilter@e0c03bd, org.springframework.security.web.authentication.logout.LogoutFilter@54c697c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@171b0d3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2c989d82, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@63e4bbf9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@334ac669, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77430c79, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@455cb6d9, org.springframework.security.web.access.ExceptionTranslationFilter@3816efab, org.springframework.security.web.access.intercept.AuthorizationFilter@5481f204]
+10379 [main] INFO  o.d.prack15.Prack15ApplicationTests
+                – Started Prack15ApplicationTests in 9.35 seconds (process running for 11.372)
+10707 [scheduling-1] INFO  o.d.p.a.ServiceExecutionTimeAspect
+                – void org.dmitriy.prack15.services.DataProcessingService.processData() executed in 309ms
+11276 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+11279 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+11291 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
